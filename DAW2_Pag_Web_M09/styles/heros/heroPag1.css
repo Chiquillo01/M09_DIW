@@ -1,0 +1,261 @@
+/* Pagina total */
+body {
+  background-image: url("../../assets/listas/heros/primeraH/Yugi_fondo.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: "Times New Roman", Times, serif;
+}
+
+.contenedorPrincipal {
+  margin-left: 55%;
+  height: 1119px;
+  background-color: rgb(193, 243, 235);
+
+  border-style: solid;
+  border-radius: 14px;
+  border-color: #000000;
+
+  background: linear-gradient(to top, rgb(143, 122, 167), rgb(237, 226, 252));
+}
+
+
+/* Títulos */
+h1 {
+  color: #000000;
+  text-align: center;
+}
+
+h2 {
+  padding-left: 3%;
+}
+
+h3 {
+  font: oblique bold 100%;
+  color: #000000;
+  padding-left: 3%;
+}
+
+/* Complementos */
+hr {
+  border-color: rgb(5, 13, 121);
+  border-style: dashed;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#header {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 600px;
+}
+
+/* Cuerpo de la página */
+.introPrincipal {
+  text-align: justify;
+
+  font-style: oblique;
+  font-size: 14px;
+
+  margin-left: 100px;
+}
+
+/* Desplegables */
+ul,
+ol {
+  list-style: none;
+  text-align: justify;
+}
+
+.nav li a {
+  background-color: rgb(253, 250, 250);
+  border-radius: 12px;
+  border: solid 2px;
+  color: #000000;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+.nav li a:hover {
+  background-color: rgb(187, 228, 252);
+  border-radius: 12px;
+  cursor:cell;
+}
+
+.nav li ul li ul a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.nav>li {
+  float: left;
+}
+
+.nav li ul {
+  display: none;
+  position: absolute;
+  padding: 0px;
+}
+
+.nav li:hover>ul {
+  display: block;
+}
+
+.nav li ul li {
+  position: relative;
+}
+
+.nav li ul li ul {
+  width: 334px;
+  top: 0px;
+}
+
+/* Imagenes */
+img {
+  width: 15.5vw;
+}
+
+.imgHero1 {
+  left: 120%;
+  margin-top: 2px;
+}
+
+.imgHero2 {
+  left: 120%;
+  margin-top: -40px;
+}
+
+.imgHero3 {
+  left: 120%;
+  margin-top: -82px;
+}
+
+.imgHero4 {
+  left: 120%;
+  margin-top: -124px;
+}
+
+.imgHero5 {
+  left: 120%;
+  margin-top: -166px;
+}
+
+.imgHero6 {
+  left: 120%;
+  margin-top: -208px;
+}
+
+.imgHero7 {
+  left: 120%;
+  margin-top: -250px;
+}
+
+.imgHero8 {
+  left: 120%;
+  margin-top: -292px;
+}
+
+.imgHero9 {
+  left: 120%;
+  margin-top: -334px;
+}
+
+.imgHero10 {
+  left: 120%;
+  margin-top: -376px;
+}
+
+.imgHero11 {
+  left: 120%;
+  margin-top: -418px;
+}
+
+.imgHero12 {
+  left: 120%;
+  margin-top: -460px;
+}
+
+.imgHero13 {
+  left: -104%;
+  margin-top: 2px;
+}
+
+.imgHero14 {
+  left: -104%;
+  margin-top: -58px;
+}
+
+.imgHero15 {
+  left: -104%;
+  margin-top: -100px;
+}
+
+.imgHero16 {
+  left: -104%;
+  margin-top: -142px;
+}
+
+.imgHero17 {
+  left: -104%;
+  margin-top: -184px;
+}
+
+.imgHero18 {
+  left: -104%;
+  margin-top: -226px;
+}
+
+.imgHero19 {
+  left: -104%;
+  margin-top: -268px;
+}
+
+.imgHero20 {
+  left: -104%;
+  margin-top: -310px;
+}
+
+.imgHero21 {
+  left: -104%;
+  margin-top: -352px;
+}
+
+.imgHero22 {
+  left: -104%;
+  margin-top: -394px;
+}
+
+.imgHero23 {
+  left: -104%;
+  margin-top: -436px;
+}
+
+.separacion1 {
+  margin-left: 10%;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  border-radius: 9px;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+button {
+  border-radius: 40px;
+  border: solid 2px #000000;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
