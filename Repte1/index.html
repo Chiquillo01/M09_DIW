@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Edgar Chiquillo">
+    <meta name="kaywords" content="yu-gi-oh, deck lists">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="shortcut icon" href="assets/index/favicon.png" type="image/x-icon">
+    <title>Experiencia Yu-Gi-Oh!</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <span style="--i:1;"><img src="assets/1.jpg"></span>
+            <span style="--i:2;"><img src="assets/2.jpg"></span>
+            <span style="--i:3;"><img src="assets/3.jpg"></span>
+            <span style="--i:4;"><img src="assets/4.jpg"></span>
+            <span style="--i:5;"><img src="assets/5.jpg"></span>
+            <span style="--i:6;"><img src="assets/6.jpg"></span>
+            <span style="--i:7;"><img src="assets/7.jpg"></span>
+            <span style="--i:8;"><img src="assets/8.jpg"></span>
+        </div>
+
+        <div class="btns">
+            <div class="btn prev"></div>
+            <div class="btn next"></div>
+        </div>
+    </div>
+
+    <script>
+        let prev = document.querySelector('.prev');
+        let next = document.querySelector('.next');
+        let box = document.querySelector('.box');
+
+        let degrees = 0;
+
+        prev.addEventListener('click', function(){
+            degrees += 45;
+            box.style = `transform: perspective(1000px) rotateY(${degrees}deg)`;
+        })
+
+        next.addEventListener('click', function(){
+            degrees -= 45;
+            box.style = `transform: perspective(1000px) rotateY(${degrees}deg)`;
+        })
+    </script>
+</body>
+
+</html>
