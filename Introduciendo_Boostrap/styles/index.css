@@ -1,7 +1,7 @@
 /* Pagina total */
 body {
     font-size: "Times New Roman", Times, serif;
-    background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+    background: linear-gradient(to top, rgb(189, 189, 255), rgb(224, 194, 254));
     padding: 0;
     margin: 0;
 }
@@ -14,7 +14,7 @@ header {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 !important;
     overflow: hidden;
     background-color: rgb(58, 58, 58);
 }
@@ -36,25 +36,12 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: rgb(189, 189, 255);
+    background-color: rgb(224, 194, 254);
     color: #000000;
     font-weight: bold;
 }
 
 /* Títulos */
-h1 {
-    background-color: #000000;
-    padding: 10px;
-    margin: 0;
-    color: rgb(145, 163, 255);
-}
-
-h2 {
-    font-size: 24px;
-    margin: 20px;
-    padding: 0;
-}
-
 h3 {
     background-color: rgb(0, 0, 0);
     padding: 10px;
@@ -89,12 +76,12 @@ h3 {
 .image2 {
     float: left;
     width: 500px;
-    margin: 10px 20px 0 40px;
+    margin: 10px 20px 0 0 !important;
 }
 
 /* Contenedor secundario */
 .articulos {
-    margin-top: 4%;
+    text-align: center !important;
 }
 
 .centrado {
